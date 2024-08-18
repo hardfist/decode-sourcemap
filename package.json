@@ -1,0 +1,24 @@
+{
+  "name": "decode-sourcemap",
+  "version": "1.0.0",
+  "description": "Demo: [https://evanw.github.io/source-map-visualization/](https://evanw.github.io/source-map-visualization/)",
+  "main": "code.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hardfist/decode-sourcemap.git"
+  },
+  "dependencies": {
+    "hono": "4.5.6",
+    "open": "10.1.0"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hardfist/decode-sourcemap/issues"
+  },
+  "homepage": "https://github.com/hardfist/decode-sourcemap#readme"
+}
