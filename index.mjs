@@ -31,7 +31,9 @@ serve({
     const code = fs.readFileSync(code_path, 'utf-8');
     const map = fs.readFileSync(map_path, 'utf-8');
     let hash = getHash(code,map);
-    const url = `${info.address}:${info.port}/${hash}`;
+    const url = `http://${info.address}:${info.port}/${hash}`;
     console.log(url);
-    await open(url);
+    await open(url, {
+        wait:true
+    });
 })
